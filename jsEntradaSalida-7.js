@@ -9,7 +9,7 @@ function sumar()
     num1=parseInt(document.getElementById("numeroUno").value);
     num2=parseInt(document.getElementById("numeroDos").value);
     res=num1+num2;
-    alert("El resultado es " + res + ".");
+    alert("El resultado de la suma es " + res + ".");
 
 	
 }
@@ -21,7 +21,7 @@ function restar()
     num1=parseInt(document.getElementById("numeroUno").value);
     num2=parseInt(document.getElementById("numeroDos").value);
     res=num1-num2;
-    alert("El resultado es " + res + ".");
+    alert("El resultado de la resta es " + res + ".");
 	
 }
 
@@ -32,7 +32,7 @@ function multiplicar()
     num1=parseInt(document.getElementById("numeroUno").value);
     num2=parseInt(document.getElementById("numeroDos").value);
     res=num1*num2;
-    alert("El resultado es " + res + ".");
+    alert("El resultado de la multiplicacion es " + res + ".");
 	
 }
 
@@ -45,7 +45,7 @@ function dividir()
     entero=num1/num2;
     //decimal=num1%num2;
 
-    alert("El resultado es " + entero + "," + decimal + ".");
+    alert("El resultado de la division es " + entero + ".");
 	
 }
 
